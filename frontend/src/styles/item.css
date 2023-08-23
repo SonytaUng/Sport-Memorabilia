@@ -1,0 +1,111 @@
+.card-container {
+    position: relative;
+    width: 275px;
+    height: 400px;
+}
+
+.foreground-card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 275px;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.image-card {
+    position: absolute;
+}
+
+.item-title {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 60%;
+    height: 40px;
+    white-space: nowrap;
+}
+
+.item-title h1 {
+    font-size: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-description {
+    position: absolute;
+    left: 8%;
+    top: 62%;
+    width: 16em;
+    height: 105px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-description p {
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.item-details {
+    position: relative;
+    top: 90%;
+    left: 2%;
+    right: 2%;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-pricetag {
+    position: absolute;
+    left: 70%;
+    top: 52%;
+}
+
+
+.item-favorites {
+    position: absolute;
+    left: 85%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.item-favorites:hover {
+    position: absolute;
+    left: 85%;
+    top: 5%;
+
+}
+
+.item-favorited {
+    color: var(--color-pink);
+}
+
+.item-not-favorited {
+    color: #000;
+}
+
+.item-flex {
+    display: flex;
+}
+
+.item-cart {
+    color: var(--color-purple);
+}
+
+.item-cart:hover {
+    cursor: pointer;
+}
+
+div1{
+    width:100px;
+    height:100px;
+    background-color:rgb(0, 255, 213);
+}

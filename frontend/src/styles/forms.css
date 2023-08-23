@@ -1,0 +1,14 @@
+.dropdown-title {
+  font-size: calc(2vmin);
+  font-family: 'Kano';
+}
+
+.input-title {
+  text-align: center;
+  font-size: calc(2vmin);
+  font-family: 'Kano';
+}
+
+.main-font {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}

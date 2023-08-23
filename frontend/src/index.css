@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --header_1_size: 2.5em;
+  --header_2_size: 2em;
+  --header_3_size: 1.5em;
+  --body_size: 1em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('PlayfairDisplay'), url(fonts/PlayfairDisplay-Medium.ttf) format('opentype');
+}
+
+.theme-light{
+  --font-color:#3f3f3f;
+  --color-black:black;
+  --color-pink:#FE8B8B;
+  --color-error:#ff5f5f;
+  --color-sun:#F4C008;
+  --color-light-yellow:#FFFA88;
+  --color-purple:#816CFF;
+}
+
+
+
+.light-mode-header-1-bold{
+  color      :var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size  : var(--header_1_size);
+}
+
+.light-mode-header-1{
+  color      : var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size  : var(--header_1_size);
+}
+
+.light-mode-header-2-bold{
+  color      : var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size  : var(--header_2_size);
+}
+
+.light-mode-header-2{
+  color      : var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size  : var(--header_2_size);
+}
+
+.light-mode-header-3-bold{
+  color      : var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size  : var(--header_3_size);
+}
+
+.light-mode-header-3{
+  color      : var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size  : var(--header_3_size);
+}
+
+.light-mode-header-3-error{
+  color      : var(--color-error);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size  : var(--header_3_size);
+}
+
+
+.light-mode-body-bold{
+  color      : var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size  : var(--body_size);
+}
+
+.light-mode-body{
+  color      : var(--font-color);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size  : var(--body_size);
+}
+
+.light-mode-body-error{
+  color      : var(--color-error);
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size  : var(--body_size);
+}
+
+.light-mode-color-black{
+  color:var(--color-black);
+}
+
+.light-mode-color-dark-grey{
+  color:var(--font-color);  
+}
+
+.light-mode-color-sun{
+  color:var(--color-sun);  
+}
+
+.light-mode-color-light-yellow{
+  color:var(--color-light-yellow);  
+}
+
+.light-mode-color-pink{
+  color:var(--color-pink);  
+}
+
+.light-mode-color-error{
+  color:var(--color-error);  
+}
+
+.light-mode-color-purple{
+  color:var(--color-purple);  
+}
+
+

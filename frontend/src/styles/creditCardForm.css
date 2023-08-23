@@ -1,0 +1,67 @@
+.close_button{
+    float:right;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.close_button:focus{
+    outline: none;
+    border:none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 0.5pt crimson;
+}
+
+.close_button:hover{
+    fill:crimson;
+    border:none;
+}
+
+.form_container{
+    border-width: 0.5px;
+    border-color: lightgray;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 5px lightgoldenrodyellow;
+    width: 50rem;
+}
+
+.light-mode-button{
+    font-size  : var(--body_size) !important;
+}
+
+.card_expiration{
+    width : 4em;
+    border: 0px;
+    text-align: center;
+    display:inline-block;
+}
+
+.expiration{
+    display:inline-block;
+    border: 1px solid #bbbbbb;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 0.25rem;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height : 2.7rem;
+}
+
+.errorExpiration{
+    border-color: red;
+}
+
+.slash{
+    font-size: 1.5rem;
+    color:lightgray
+}
+
+.cvv{
+    width: 4em;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.credit-card{
+    position: relative;
+    background-color: lightsteelblue;
+    width: 370px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.edit{
+    position: absolute;
+    text-decoration: underline;
+    right: 100px;
+    bottom: 15px;
+}
+
+.remove{
+    position: absolute;
+    text-decoration: underline;
+    right: 20px;
+    bottom: 15px;
+}
+
+.card_number{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.bank_name{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.card_holder_name{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}

@@ -1,0 +1,213 @@
+.profile-form-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px ;
+}
+
+.profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.col-1 {
+    float: left;
+    width: 30%;
+    padding: 100px;
+    box-sizing: border-box;
+
+}
+
+.col-3 {
+    float: right;
+    width: 70%;
+    padding: 6px;
+    box-sizing: border-box;
+    min-width: 756px;
+}
+
+.profile-username {
+    font-size: calc(6px + 2vmin);
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.member {
+    font-size: calc(4px + 2vmin);
+    font-family: 'Kano';
+    text-align: center;
+
+}
+
+.others {
+    font-size: calc(8px + 2vmin);
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+.profile-star-ratings {
+    position: relative;
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 1em;
+    line-height: 1.2;
+    width: 100px;
+    margin: 0px;
+    letter-spacing: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.star-ratings-top {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     overflow: hidden;
+     display: flex;
+     justify-content: flex-start;
+     color: #5D2750;
+    padding: 5px;
+ }
+
+.star-ratings-bottom {
+     display: flex;
+     justify-content: flex-start;
+     z-index: 0;
+     padding: 5px;
+ }
+
+
+.wishList {
+    font-size: calc(13px + 3vmin);
+    font-family: 'Playfair Display';
+    text-align: left;
+    padding: 40px;
+}
+
+.color-1 {
+    background-color: #E5EDEA;
+    border: 5px ;
+    border-radius: 20px;
+    padding: 5px;
+    width: 95%;
+    box-shadow: 5px 5px #c5c5c5;
+    border: 1px solid #aaaaaa;
+}
+
+.color-3 {
+    background-color: #fcfcfc;
+    border: 1px solid #aaaaaa;
+    border-radius: 20px;
+    padding: 5px;
+    width: 95%;
+    border-spacing: 15px;
+    box-shadow: 5px 5px #c5c5c5;
+}
+
+.row-2 {
+    font-size: calc(13px + 3vmin);
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.color-2 {
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    border-radius: 20px;
+    padding: 5px;
+    width: 80%;
+    border-spacing: 15px;
+    box-shadow: 5px 5px #c5c5c5;
+}
+
+.color-1 .card {
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 0px 5px 5px #b2bec3;
+    text-align: center;
+    width: 80%;
+
+}
+
+.card .title{
+    font-size: 16px;
+    text-align: left;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    text-align: left;
+    font-size: 12px;
+}
+
+.card .price {
+    text-align: right;
+}
+
+.card .cart {
+    background-color: white;
+    text-align: right;
+    border: none;
+    color: #FE8B8B;
+    font-size: 16px;
+}
+
+.profile-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 30px;
+}
+
+.color-2 .card {
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+    width: 100%;
+    border-style: none;
+    font-size: 7px;
+
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+}
+
+.items-grid2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.items-grid3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.signout {
+    width: 93%;
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}

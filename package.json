@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.2",
+    "axios": "^0.22.0",
+    "react-paginate": "^8.0.2"
+  }
+}

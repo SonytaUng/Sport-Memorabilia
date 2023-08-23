@@ -1,0 +1,88 @@
+.sign-up-form-div {
+    border: 1px solid #aaaaaa;
+    /*border: none;*/
+    border-radius: 5px;
+    box-shadow: 2px 2px #aaa;
+    /*width: 100%;*/
+    /*min-width: 1000px;*/
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.page-title {
+    text-align: center;
+    font-size: calc(30px + 2vmin);
+    font-family: 'Kano';
+}
+
+.sub-link {
+    font-family: 'Kano';
+    font-size: calc(5px + 2vmin);
+}
+
+@font-face {
+    font-family: 'Kano';
+    src: local('Kano'), url(../fonts/Kano.otf) format('opentype');
+}
+
+/*.form-flex {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    min-width: 100%;*/
+/*}*/
+
+.form-text {
+    /*text-align: left;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*justify-items: center;*/
+    /*justify-self: center;*/
+    /*align-content: center;*/
+    width: 100%;
+}
+
+/*.form-row {*/
+/*    justify-content: space-between;*/
+/*}*/
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-flex {
+    padding-left: 10px;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.form-label {
+    text-align: left;
+}
+
+.form-row {
+    padding: 10px;
+    /*margin: 10px;*/
+}
+
+.signup-button {
+    background: #816CFF;
+    color: #ffffff;
+    border: none;
+    height: 35px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+    /*color: #816CFF;*/
+}
+
+.signup-red-help {
+    color: #ff0000;
+}

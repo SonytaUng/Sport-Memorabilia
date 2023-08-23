@@ -1,0 +1,32 @@
+.main-font {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.mercatus-logo {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  color: var(--color-purple);
+}
+
+.sub-font {
+  font-family: 'Kano';
+}
+
+.black-sun {
+  color: black;
+}
+
+.dropdown-toggle:active, .dropdown-toggle {
+  background:var(--color-purple) !important; 
+  color:#FFF !important;
+  outline: hidden;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.person-hover:hover {
+  cursor: pointer
+}

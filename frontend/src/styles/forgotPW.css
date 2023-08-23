@@ -1,0 +1,37 @@
+.form-div {
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    box-shadow: 2px 2px #aaa;
+    width: 50%;
+    height: 300px;
+    align-content: center;
+    margin: auto;
+}
+
+.page-title {
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Kano';
+    text-align: center;
+}
+
+.email-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.text-box {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 4px;
+    box-shadow: 2px 2px #aaa;
+    font-size: 20px;
+    font-family: 'Kano';
+}
+
+.button-form {
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+}

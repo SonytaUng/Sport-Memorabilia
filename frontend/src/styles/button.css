@@ -1,0 +1,8 @@
+.light-mode-button{
+    background: var(--color-purple);
+    border-radius: 0.3em;
+    border: 0em;
+    color:white;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-size  : var(--header_2_size);
+}
