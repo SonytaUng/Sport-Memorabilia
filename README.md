@@ -1,17 +1,19 @@
-To run the code: Backend:
+To run the code: 
 
-CD into backend directory
+Backend:
 
-npm install
+      CD into backend directory
 
-node server.js
+      npm install
+
+      node server.js
 
 Frontend:
 
-CD into frontend directory
+    CD into frontend directory
 
-npm install
+    npm install
 
-npm start
+    npm start
 
 (backend runs on port 5000, frontend on port 3000)
